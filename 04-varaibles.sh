@@ -1,6 +1,6 @@
 #!/bin/bash
 
-each "Please enter username::"
+echo "Please enter username::"
 
 read -s USERNAME #here USERNAME is a variable
 
