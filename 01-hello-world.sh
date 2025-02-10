@@ -1,2 +1,3 @@
 #!/bin/bash
-echp "hello world"
+
+echo "hello world"
