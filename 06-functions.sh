@@ -3,8 +3,13 @@
 USERID=$(id -u)
 
 VALIDATE(){
-    echo "exit status : $1"
-    echo "message : $2"
+    if [ $1 -ne 0 ]
+    then
+        echo "Installation of $2...FAILURE"
+        exit 1
+    else
+        echo "Installation of $2...SUCCESS"
+    fi
 }
 
 if [ $USERID -ne 0 ]
