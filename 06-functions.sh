@@ -23,23 +23,5 @@ fi
 dnf install mysql -y
 VALIDATE $? "installing mysql
 
-#if [ $? -ne 0 ]
-#then
-    #echo "Installation of my
- #   #xit 1
-#else#
-    ##echo "Installation of m
-#fi
-
 dnf install git -y
-VALIDATE $? "installing git"#
-
-#i#f [ $? -ne 0 ]
-#t#hen#
-    #echo #"Installation of g
-    #exit# 1
-#else
-    #echo# "Installation of G
-#fi
-
-#echo "is script proceeding?"
+VALIDATE $? "installing git"
